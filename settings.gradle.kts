@@ -1,4 +1,5 @@
 pluginManagement {
+    includeBuild("config")
     repositories {
         google()
         mavenCentral()
@@ -14,4 +15,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Gradle Plugin"
 include(":app")
- 
